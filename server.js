@@ -28,17 +28,19 @@ GitHub: https://github.com/AsishKumarDalal (New: https://github.com/envsecure)
 LinkedIn: https://www.linkedin.com/in/asish-kumar-dalal/
 
 Expertise & Highlights:
-- Deep Learning from Scratch: Coded GPT-2 (124M parameters), Nano-GPT, BERT, VisualBERT, DEIT (Data-efficient Image Transformers), and CLIP from scratch in PyTorch.
-- Advanced Architectures: Built HSKM (Hierarchical Sparse Kernel Memory) combining sparse attention with memory banks, and memoryllm (differentiable neural computer with GPT-2).
-- MLOps & Tooling: Created 'auto_finetuner', a zero-headache wrapper for fine-tuning LLMs using QLoRA. Built a custom LLM Serving Engine.
-- Systems & Backend: Implemented a C++ Load Balancer, Redis from scratch in C++, and a scalable Notification Service using BullMQ & Redis.
-- Open Source: Contributed to KeystoneJS (fixed seeding errors and schema fields).
-- Founder: Created EnvSecure (encrypted .env sharing platform with zero-knowledge encryption, 200+ users) and ResumeVVC (modern resume builder).
+- HSKM (Hierarchical Sparse Kernel Memory): Architected a breakthrough model solving the O(N²) Transformer bottleneck. Achieves linear O(N) complexity using Multi-Head Kernel Attention (MHKA) with Top-K Sparsity, Rotary Positional Embeddings (RoPE), and a 3-tier memory hierarchy (Short-Term, Vectorized EMA Scans for Medium-Term, and Adaptive Long-Term memory). Reduces 8k context VRAM usage from 24GB to just 6GB.
+- GPTOss & Core LLMs: Built a production-grade, Decoder-Only Transformer from scratch in PyTorch for NVIDIA H200 GPUs. Implemented Grouped Query Attention (GQA), Mixture-of-Experts (MoE) routing, Native KV Caching, and RoPE.
+- Vision & Multimodal: Coded DEIT (Data-efficient Image Transformers) using distillation, Flamingo (Visual Language Model), and VisualBERT from scratch.
+- MLOps & Tooling: Created 'auto_finetuner', an enterprise-grade QLoRA wrapper for fine-tuning LLMs that handles precision, memory limits, and sequence lengths. Built a custom LLM Serving Engine.
+- Systems Engineering: Implemented a C++ Load Balancer, a high-performance Redis clone in C++, and a scalable Notification Service using BullMQ & Redis.
+- Open Source: Fixed complex seeding errors and schema fields in KeystoneJS.
+- Solo Founder: Created EnvSecure (zero-knowledge encrypted .env sharing platform with 200+ users) and ResumeVVC (modern resume builder).
 
 Projects:
 Domain: Artificial Intelligence & Machine Learning
-- GPTOss: A Mixture of Experts (MoE) model built from scratch in PyTorch.
-- Flamingo: A visual language model implementation.
+- HSKM-Architecture: Linear O(N) sequence modeling architecture.
+- GPTOss: Production-grade MoE model from scratch.
+- Deep Learning from Scratch: GPT-2 (124M), Nano-GPT, BERT, DEIT, CLIP, Flamingo.
 - Image Captioning & Segmentation: Models using CNNs, LSTMs, and UNet architectures.
 
 Domain: Systems & Web
